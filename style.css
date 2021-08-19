@@ -114,11 +114,11 @@ li:hover, .dropdown:hover{
 @media only screen and (max-width: 1200px){
     .content1{
         height: 200px;
-        padding-top: 50px;
+        padding-top: 30px;
         padding-left: 20px;
     }
     .content-text1{
-        font-size: 35px;
+        font-size: 30px;
     }
     .adoptbtn{
         margin-top: 15px;
