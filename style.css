@@ -227,7 +227,7 @@ li:hover, .dropdown:hover{
     margin-top: 15px;
 }
 
-.email-subscribe button{
+.email-subscribe .button{
     height: 30px;
     width: 80px;
     border: none;
