@@ -13,7 +13,6 @@ a{
     padding-top: 25px;
     text-align: center;
     background-color: maroon;
-    text-shadow: 0px 8px 8px rgba(0,0,0,0.2);
 }
 
 .header > a{
@@ -27,6 +26,11 @@ a{
     font-family: 'Cabin Sketch', cursive;
     font-size: 30px;
     color: white;
+    text-shadow: 0px 8px 8px rgba(0,0,0,0.2);
+}
+
+.header:hover a{
+    text-shadow: 0px 8px 8px rgba(0,0,0,0.5);
 }
 
 ul{
@@ -65,6 +69,7 @@ li a, .dropbtn{
 
 li:hover, .dropdown:hover{
     background-color: rgb(255, 180, 19);
+    box-sizing: content-box;
 }
 
 .dropdown-content{
@@ -181,6 +186,10 @@ li:hover, .dropdown:hover{
 
 .reason:hover{
     box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.1);
+}
+
+.reason:hover .material-icons{
+    color: yellow;
 }
 
 .reason h3{
